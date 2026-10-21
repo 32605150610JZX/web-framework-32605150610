@@ -11,8 +11,8 @@ export default {
 </script>
 
 <style scoped>
-.box {
-  border: 2px solid var(--accent);
+.box.box {
+  border: 2px solid #3b82f6;
   border-radius: 8px;
   padding: 10px;
   margin: 8px 0;
