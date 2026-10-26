@@ -5,6 +5,11 @@
     <nav class="top-nav">
       <router-link to="/home">首页</router-link>
       <router-link to="/about">关于</router-link>
+      <router-link to="/users">用户列表</router-link>
+      <router-link to="/center">用户中心</router-link>
+      <router-link to="/named">命名路由</router-link>
+      <router-link to="/program">编程导航</router-link>
+      <router-link to="/login">登录</router-link>
     </nav>
     <p class="muted addr">当前地址：<code>{{ $route.fullPath }}</code>｜登录态：<b>{{ $route.path === '/login' || isLogin() ? '已登录' : '未登录' }}</b>（守卫看 token）</p>
     <router-view></router-view>
